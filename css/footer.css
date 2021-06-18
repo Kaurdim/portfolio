@@ -1,0 +1,14 @@
+.main-footer {
+  padding: 2rem;
+  display: flex;
+}
+
+.footer-content {
+  margin: auto;
+}
+
+.footer-logos {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 2rem;
+}

@@ -1,0 +1,32 @@
+.main-header {
+  display: flex;
+}
+
+.header-content {
+  margin: auto;
+  width: var(--content-width);
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.header-logo {
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  grid-gap: 48px;
+}
+
+.menu-item  {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.menu-item_active {
+  color: #000000;
+}
